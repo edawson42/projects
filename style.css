@@ -1,0 +1,85 @@
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+        }
+    50%{
+        opacity: .5;
+        }
+    100%{
+        opacity: 1;
+        }
+}
+body {
+  background-color: MintCream;
+}
+h1 {
+  background-color: MidnightBlue;
+  border: 5px solid Black;
+  border-radius: 10px;
+  box-sizing: content-box;
+  color: white;
+  content-align: center;
+  font-family: 'Abel', sans-serif;
+  font-size: 3rem;
+  padding: 10px;
+  margin: 50px auto 30px auto;
+  text-shadow: 3px 3px 5px black;
+  text-align: center;
+  width: 600px;
+}
+#quote-box {
+  margin: 5px;
+  min-height: 100px;
+}
+h2 {
+  animation: fadeIn 1s 1 0s linear;
+  color: black;
+  font-size: 2rem;
+  font-family: 'Indie Flower', cursive;
+  padding: 2px;
+  margin: 20px;
+  text-align: center;
+}
+
+.btn {
+  background-color: DarkGrey;
+  border: 2px solid DarkSlateGrey;
+  border-radius: 10px;
+  color: white;
+  content-align: bottom;
+  float: right;
+  font-family: 'Abel', sans-serif;
+  font-size: 2rem;
+  height: 60px;
+  text-shadow: 3px 3px 5px black;
+  width: 250px;
+}
+#new-quote:hover {
+  background-color: DarkGrey;
+  border: 2px solid darkgreen;
+  color: black;
+  text-shadow: 3px 3px 5px white;
+}
+#tweet-quote:hover {
+  background-color: DarkGrey;
+  border: 2px solid #1da1f2;
+  color: black;
+  text-shadow: 3px 3px 5px white;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5px 5px;
+  justify-content: center;
+  padding: 10px;
+}
+#new-quote {
+  background-color: DarkGreen;
+  border: 2px solid green;
+  grid-column: 1;
+}
+#tweet-quote {
+  background-color: #1da1f2;
+  border: 2px solid LightBlue;
+  grid-column: 2;
+}
