@@ -18,7 +18,7 @@ h1 {
   border-radius: 10px;
   box-sizing: content-box;
   color: white;
-  content-align: center;
+  align-content: center;
   font-family: 'Abel', sans-serif;
   font-size: 3rem;
   padding: 10px;
